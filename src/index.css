@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+header a {
+  margin-right: 15px;
+}
+
+header button {
+  margin-left: 10px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a.active {
+  font-weight: bold;
+}
+
+.dashboard {
+  display: flex;
+  gap: 30px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 100px;
+}
+
+.dashboard section {
+  flex: 1;
+}
+
+.filters {
+  display: flex;
+  gap: 20px;
+}
+
+.projects {
+  padding: 0;
+  list-style: none;
+}
+
+.projects li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.projects p {
+  margin: 5px 0;
+}
+
+.projects.compact li {
+  padding: 4px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 250px;
+}
+
+.error {
+  color: red;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 10px;
+}
